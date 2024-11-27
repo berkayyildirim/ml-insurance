@@ -25,7 +25,7 @@ The study includes data preprocessing, feature engineering, model development, a
 
   - Built and evaluated multiple regression models (Linear Regression, Random Forest, Gradient Boosting).
   - Optimized performance using hyperparameter tuning.
-  - Achieved _[insert key metric, e.g., R² score or MAE]_ for the best model.
+  - Achieved R² score or RMSE for the best model.
 
 - **AWS Integration**: (todo)
   - Leveraged AWS SageMaker for scalable training and deployment.
@@ -51,8 +51,8 @@ The study includes data preprocessing, feature engineering, model development, a
   - Regional differences and family size also influence insurance charges to a lesser extent.
 
 - **Model Performance**:
-  - Best model: **Gradient Boosting Regressor**
-  - Achieved a Mean Absolute Error (MAE) of **$1200**, providing reliable predictions for insurance charges.
+  - Best model: **Tuned Random Forest**
+  - Achieved a R² of **0.87**, providing reliable predictions for insurance charges.
 
 ---
 
